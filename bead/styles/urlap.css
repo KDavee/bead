@@ -1,0 +1,49 @@
+h2, h4, hr {
+    margin: 5px 15px 5px 0px;
+}
+h4.inside {
+    margin: 0px;
+}
+div.box {
+    float: left;
+    margin-right: 15px;
+    padding: 0 0 5px 0;
+    width: 225px;
+}
+div.long {
+    width: 100%;
+    max-width: 465px;
+}
+div.nomargin {
+    margin-right: 0px;
+    width: auto;
+}
+div.submit {
+    margin-top: 15px;
+}
+div.separator {
+    clear: both;
+}
+input[type="text"], select, textarea {
+    display: block;
+    border-top: inset;
+}
+input[type="text"].long {
+    width: 98%;
+    max-width: 455px;
+}
+input[type="text"].short, select, textarea {
+    width: 217px;
+}
+#telcountry, #telregion, #arrivalmonth, #arrivalday, #departuremonth, #departureday {
+    width: 20px;
+}
+#telefon {
+    width: 70px;
+}
+#arrivalyear, #departureyear {
+    width: 40px;
+}
+textarea {
+    height: 75px;
+}
