@@ -74,15 +74,15 @@ nav ul a {
 
 div#content {
     display: table-cell;
-    width: 100%;
-    border-radius: 10px;
-    background-color: #99FFCC;
+    /*width: 100%;*/
+    border-radius: 30px;
+    background-color: darkturquoise;
     padding: 15px;
 }
 
 div#content img{
     float: right;
-    width: 20em;
+   /* width: 20em; */
     height: auto;
     margin: 0 0 15px 15px;
     padding: 3px;
@@ -93,9 +93,16 @@ footer {
     border-radius: 10px;
     margin: 10px;
     padding: 5px 20px;
-    background-color: #CC99FF;
+    background-color: firebrick;
 }
 
 body{
     background-color: #bbbbbb;
+}
+img.nagy{
+    width: 40%;
+}
+img.nagy2{
+    width: 70%;
+    float: top;
 }
