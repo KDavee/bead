@@ -17,13 +17,13 @@
 
         <div class="box long">
             <h4 class="inside">E-mail:</h4>
-            <input type="text" class="long" name="email" value="" id="email" required">
+            <input type="text" class="long" name="email" value="" id="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"">
         </div>
         <div class="separator"></div>
 
         <div class="box">
             <h4 class="inside">Üzenet:</h4>
-            <textarea class="long" name="comment"></textarea>
+            <textarea class="long" name="comment" required></textarea>
         </div>
         <div class="separator"></div>
         <div class=" long submit">
