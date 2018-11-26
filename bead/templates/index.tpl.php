@@ -37,7 +37,7 @@
     <div id="wrapper">
         <aside id="nav">
             <nav>
-daasdasdfafsdfasdasadadasdsa
+                <img src="./images/oldalkep.jpg" class="oldalkep">
             </nav>
         </aside>
         <div id="content">
