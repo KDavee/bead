@@ -24,7 +24,7 @@ $oldalak = array(
     'tablazat' => array('fajl' => 'tablazat', 'szoveg' => 'Táblázat', 'menu' => 1),
     'regisztracio' => array('fajl' => 'urlap', 'szoveg' => 'Regisztrációáé', 'menu' => 1),
     'feldolgoz' => array('fajl' => 'feldolgoz', 'szoveg' => '', 'menu' => 0),
-    'kapcsolat' => array('fajl' => 'kapcsolat', 'szoveg' => 'Kapcsolat', 'menu' => 1)
+    'kapcsolat' => array('fajl' => 'kapcsolat', 'szoveg' => 'Hol vagyunk?', 'menu' => 1)
 
 );
 

@@ -22,7 +22,16 @@
                     </li>
                 <?php }
             } ?>
+            <div class="search">
+                <form action="https://www.google.com/search" class="searchform" method="get" name="searchform" target="_blank">
+                    <input name="sitesearch" type="hidden" value=csipero.eu>
+                    <input autocomplete="on" class="form-control search" name="q" placeholder="Keressen oldalunkon: " required="required"  type="text">
+                    <input class="keresoikon" type="image" src="./images/kereso.png" width="32"></input>
+                </form>
+            </div>
+
         </ul>
+
         </nav>
 	</header>
     <div id="wrapper">
