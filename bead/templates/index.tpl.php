@@ -48,6 +48,9 @@
         <?php if(isset($lablec['copyright'])) { ?>&copy;&nbsp;<?= $lablec['copyright'] ?> <?php } ?>
 		&nbsp;
         <?php if(isset($lablec['ceg'])) { ?><?= $lablec['ceg']; ?><?php } ?>
+        <span class="jobbb"> <a href="csipero.eu">Eredeti oldalra mutató link</a>    </span>
+
+
     </footer>
 </body>
 </html>
