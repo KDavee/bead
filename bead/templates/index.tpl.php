@@ -12,20 +12,23 @@
         <img id="szeles" src="./images/<?=$fejlec['kepforras2']?>" alt="<?=$fejlec['kepalt2']?>">
 		<h1><?= $fejlec['cim'] ?></h1>
 		<?php if (isset($fejlec['motto'])) { ?><h2><?= $fejlec['motto'] ?></h2><?php } ?>
+        <nav id="felso">
+        <ul>
+            <?php foreach ($oldalak as $url => $oldal) {
+                if($oldal['menu']) { ?>
+                    <li<?= (($oldal == $keres) ? ' class="active"' : '') ?>>
+                        <a href="<?= ($url == '/') ? '.' : ('?oldal=' . $url) ?>">
+                            <?= $oldal['szoveg'] ?></a>
+                    </li>
+                <?php }
+            } ?>
+        </ul>
+        </nav>
 	</header>
     <div id="wrapper">
         <aside id="nav">
             <nav>
-                <ul>
-					<?php foreach ($oldalak as $url => $oldal) { 
-						if($oldal['menu']) { ?>
-							<li<?= (($oldal == $keres) ? ' class="active"' : '') ?>>
-							<a href="<?= ($url == '/') ? '.' : ('?oldal=' . $url) ?>">
-							<?= $oldal['szoveg'] ?></a>
-							</li>
-					<?php }
-					} ?>
-                </ul>
+daasdasdfafsdfasdasadadasdsa
             </nav>
         </aside>
         <div id="content">
