@@ -1,8 +1,13 @@
 header {
-    border-radius: 10px;
-    background-color: green;
+    border-radius: 1200px;
+    background-color: darkcyan;
     padding: 100px;
     margin: 10px;
+
+}
+header h1{
+    font-size: 300%;
+    color: maroon;
 }
 
 header img {
@@ -12,10 +17,14 @@ header img {
     width: 50px;
 }
 header img#szeles {
-    float: right  ;
-    margin: 20px 10px 0px 10px;
-    height: 50px;
-    width: 150px;
+    float: right ;
+    margin: 0px 10px 0px 10px;
+    height: 40%;
+    width: 40%;
+    border: 10px solid;
+    border-radius: 30px;
+    border: #1E459E;
+    padding: 0px;
 }
 
 div#wrapper {
@@ -29,14 +38,17 @@ aside {
 
 nav {
     margin: 0px 10px 0px 0px;
-    top: 0px;
+    top: 50px;
     border-radius: 10px;
     background-color: #FF6600;
 }
 nav#felso  ul {
     position: fixed;
-    top: 100;
-    width: 100%;
+    top: 15px;
+    width: 80%;
+    background-color: #d0dafd;
+    border-radius: 10px;
+    color: yellow;
 }
 
 nav ul {
@@ -57,7 +69,7 @@ nav ul li.active {
 
 nav ul a {
     text-decoration: none;
-    color: blue;
+    color: purple;
 }
 
 div#content {
@@ -82,4 +94,8 @@ footer {
     margin: 10px;
     padding: 5px 20px;
     background-color: #CC99FF;
+}
+
+body{
+    background-color: #bbbbbb;
 }

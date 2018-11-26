@@ -11,7 +11,7 @@
 		<img src="./images/<?=$fejlec['kepforras']?>" alt="<?=$fejlec['kepalt']?>">
         <img id="szeles" src="./images/<?=$fejlec['kepforras2']?>" alt="<?=$fejlec['kepalt2']?>">
 		<h1><?= $fejlec['cim'] ?></h1>
-		<?php if (isset($fejlec['motto'])) { ?><h2><?= $fejlec['motto'] ?></h2><?php } ?>
+		<!-- <?php if (isset($fejlec['motto'])) { ?><h2><?= $fejlec['motto'] ?></h2><?php } ?> -->
         <nav id="felso">
         <ul>
             <?php foreach ($oldalak as $url => $oldal) {

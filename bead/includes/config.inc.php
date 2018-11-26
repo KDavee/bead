@@ -1,6 +1,6 @@
 <?php
 $ablakcim = array(
-    'cim' => 'Mini honlap Kft.',
+    'cim' => 'Csiperó fesztivál',
 );
 
 $fejlec = array(
@@ -8,13 +8,13 @@ $fejlec = array(
     'kepalt' => 'logo',
     'kepforras2' => 'felsokep.jpg',
     'kepalt2' => 'logo',
-	'cim' => 'Mini honlap',
+	'cim' => '  Csiperó fesztivál',
 	'motto' => ''
 );
 
 $lablec = array(
     'copyright' => 'Copyright '.date("Y").'.',
-    'ceg' => 'Mini honlap Kft.'
+    'ceg' => 'Csiperó'
 );
 
 $oldalak = array(
