@@ -11,3 +11,9 @@
 
 <h1> Videóinkban látható az élet a fesztivál idején!</h1>
 <iframe class="video1" height="480"  src="https://www.youtube.com/embed/L3bn_ZXM7Lg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+<video height="480" controls>
+    <source src="./images/Csipero_diavetites_Közepes.mp4" type="video/mp4">
+
+</video>
